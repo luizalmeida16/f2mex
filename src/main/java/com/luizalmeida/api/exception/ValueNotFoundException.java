@@ -1,0 +1,14 @@
+package com.luizalmeida.api.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(value = HttpStatus.NOT_FOUND, reason = "Value not found")
+public class ValueNotFoundException extends Exception {
+
+	private static final long serialVersionUID = 1L;
+
+	public ValueNotFoundException(String msg) {
+        super(msg);
+    }
+}
