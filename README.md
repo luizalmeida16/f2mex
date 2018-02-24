@@ -8,14 +8,14 @@ Clone this repository and run the following comand:
 
 * mvn install
 
-### Configure n seconds fetch data interval in application.yml
+#### Configure n seconds fetch data interval in application.yml
 This file can be found in /src/main/resources/config
 Change the value of interval parameter
 
-### Run tests
+#### Run tests
 * mvn test
 
-### Start application
+#### Start application
 * mvn spring-boot:run
 
 ## Usage
