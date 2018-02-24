@@ -40,7 +40,7 @@ public class DataFromEndpoint  {
 		}
 			RLECompression compression = new RLECompression();
 			setCompressedData(compression.encode(tempString));
-			System.out.println(this.compressedData);
+			System.out.println("Compressed data: " + this.compressedData);
 	}
 
 	public String getData() {
