@@ -23,7 +23,7 @@ After that make the requests to the following endpoints:
 
        Method         |                     Endpoint                      | errors
 --------------------- | ------------------------------------------------- | ------
-Get data by index     | GET http://localhost:8080/v1/data/{index}         |404 -> index not found, 400 -> bad request
+Get data by index     | GET http://localhost:8080/v1/data/{index}         |404 -> index not found\n400 -> bad request
 List data             | GET http://localhost:8080/v1/data                 |  
 
 ## Requirements
