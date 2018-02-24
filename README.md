@@ -4,8 +4,7 @@ This project is an API to fetch data from http://challenge.carjump.net/A at n se
 RLE compression strategy and allows clients to access the data at a given index.
 
 ## Installation
-Clone this repository and run the following comand:
-
+Clone this repository and install with the following command:
 * mvn install
 
 #### Configure n seconds fetch data interval in application.yml
