@@ -21,8 +21,8 @@ Change the value of interval parameter
 ## Usage
 After that make the requests to the following endpoints:
 
-       Method         |                     Endpoint                      | http errors
---------------------- | ------------------------------------------------- | -----------
+       Method         |                     Endpoint                      | http error status
+--------------------- | ------------------------------------------------- | -----------------
 Get data by index     | GET http://localhost:8080/v1/data/{index}         |404 -> index not found<br>400 -> bad request<br> 500 -> Internal server error
 List data             | GET http://localhost:8080/v1/data                 |500 -> Internal server error
 
