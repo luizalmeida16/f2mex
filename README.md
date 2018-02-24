@@ -26,15 +26,12 @@ After that make the requests to the following endpoints:
 Get data by index     | GET http://localhost:8080/v1/data/{index}         |200 -> success<br>404 -> index not found<br>400 -> bad request<br> 500 -> Internal server error
 List data             | GET http://localhost:8080/v1/data                 |200 -> success<br>500 -> Internal server error
 
+Recommended software to make API requests: Postman
+Get postman free: https://www.getpostman.com/apps
+
 ## Requirements
 
 * Java 8
 * Maven
 
-## Errors
-
-       Method         |                     Endpoint                
---------------------- | ------------------------------------------------- 
-Get data by index     | GET http://localhost:8080/v1/data/{index}
-Get data object       | GET http://localhost:8080/v1/data
 
