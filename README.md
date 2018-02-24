@@ -21,9 +21,9 @@ Change the value of interval parameter
 ## Usage
 After that make the requests to the following endpoints:
 
-       Method         |                     Endpoint                
---------------------- | ------------------------------------------------- 
-Get data by index     | GET http://localhost:8080/v1/data/fetched/{index}
+       Method         |                     Endpoint                      | errors
+--------------------- | ------------------------------------------------- | ------
+Get data by index     | GET http://localhost:8080/v1/data/{index}
 Get data object       | GET http://localhost:8080/v1/data
 
 ## Requirements
@@ -31,5 +31,10 @@ Get data object       | GET http://localhost:8080/v1/data
 * Java 8
 * Maven
 
+## Errors
 
+       Method         |                     Endpoint                
+--------------------- | ------------------------------------------------- 
+Get data by index     | GET http://localhost:8080/v1/data/{index}
+Get data object       | GET http://localhost:8080/v1/data
 
