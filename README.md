@@ -7,5 +7,5 @@ RLE compression strategy and allows clients to access the data at a given index.
 
 After clone this repository run the following comands:
 
-mvn install
-mvn spring-boot:run
+* mvn install
+* mvn spring-boot:run
